@@ -1,0 +1,17 @@
+./var/ftp/FLAG.txt
+./var/www/html/passwords/FLAG.txt
+./home/RickSanchez/ThisDoesntContainAnyFlags/NotAFlag.txt
+./home/Summer/FLAG.txt
+./home/RickSanchez/RICKS_SAFE
+
+[Summer@localhost RICKS_SAFE]$ ./../../Summer/CPsafe 131333
+decrypt: 	FLAG{And Awwwaaaaayyyy we Go!} - 20 Points
+
+Ricks password hints:
+Follow these clues, in order
+
+
+1 uppercase character
+1 digit
+One of the words in my old bands name.�	@
+

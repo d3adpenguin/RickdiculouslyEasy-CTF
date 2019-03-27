@@ -1,0 +1,44 @@
+21/tcp    open  ftp     vsftpd 3.0.3
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| -rw-r--r--    1 0        0              42 Aug 22  2017 FLAG.txt
+|_drwxr-xr-x    2 0        0               6 Feb 12  2017 pub
+
+
+22/tcp    open  ssh?
+| fingerprint-strings: 
+|   NULL: 
+|_    Welcome to Ubuntu 14.04.5 LTS (GNU/Linux 4.4.0-31-generic x86_64)
+
+
+80/tcp    open  http    Apache httpd 2.4.27 ((Fedora))
+| http-methods: 
+|   Supported Methods: OPTIONS HEAD GET POST TRACE
+|_  Potentially risky methods: TRACE
+|_http-server-header: Apache/2.4.27 (Fedora)
+|_http-title: Morty's Website
+
+
+9090/tcp  open  http    Cockpit web service
+| http-methods: 
+|_  Supported Methods: GET HEAD
+|_http-title: Did not follow redirect to https://10.0.2.5:9090/
+
+
+13337/tcp open  unknown
+| fingerprint-strings: 
+|   NULL: 
+|_    FLAG:{TheyFoundMyBackDoorMorty}-10Points
+
+
+22222/tcp open  ssh     OpenSSH 7.5 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 b4:11:56:7f:c0:36:96:7c:d0:99:dd:53:95:22:97:4f (RSA)
+|   256 20:67:ed:d9:39:88:f9:ed:0d:af:8c:8e:8a:45:6e:0e (ECDSA)
+|_  256 a6:84:fa:0f:df:e0:dc:e2:9a:2d:e7:13:3c:e7:50:a9 (ED25519)
+
+
+60000/tcp open  unknown
+| fingerprint-strings: 
+|   NULL, ibm-db2: 
+|_    Welcome to Ricks half baked reverse shell...
+

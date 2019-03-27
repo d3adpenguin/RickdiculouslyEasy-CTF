@@ -1,0 +1,12 @@
+[Summer@localhost RICKS_SAFE]$ ./../../Summer/CPsafe 131333
+decrypt: 	FLAG{And Awwwaaaaayyyy we Go!} - 20 Points
+
+Ricks password hints:
+ (This is incase I forget.. I just hope I don't forget how to write a script to generate potential passwords. Also, sudo is wheely good.)
+Follow these clues, in order
+
+
+1 uppercase character
+1 digit
+One of the words in my old bands name.�	@
+

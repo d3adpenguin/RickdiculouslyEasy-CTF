@@ -1,0 +1,5 @@
+./var/ftp/FLAG.txt
+./var/www/html/passwords/FLAG.txt
+./home/RickSanchez/ThisDoesntContainAnyFlags/NotAFlag.txt
+./home/Summer/FLAG.txt
+./home/RickSanchez/RICKS_SAFE
